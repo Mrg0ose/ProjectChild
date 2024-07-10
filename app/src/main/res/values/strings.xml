@@ -1,0 +1,16 @@
+<resources>
+    <string name="app_name">BabyPlus</string>
+    <string name="logo">BabyPlus</string>
+    <string name="paint">Веселые краски</string>
+    <string name="math">Любимая математика</string>
+    <string name="eng">Увлекательный английский</string>
+    <string name="rus">Занимательный русский</string>
+    <string  name= "start_new" > Новый </string>
+    <string  name= "brush" > Кисть </string>
+    <string  name= "erase" > Стереть </string>
+    <string  name= "save" > Сохранить </string>
+    <string  name= "paints" > Краска </string>
+    <string name="sml">Small</string>
+    <string name="med">Medium</string>
+    <string name="lrg">Large</string>
+</resources>

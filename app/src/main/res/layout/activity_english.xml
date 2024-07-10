@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/background_game"
+    tools:context=".MainActivity">
+
+    <ImageView
+        android:id="@+id/letter"
+        android:layout_width="123dp"
+        android:layout_height="118dp"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="90sp"
+        app:srcCompat="@drawable/letter_a" />
+
+    <ImageView
+        android:id="@+id/imgletter"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="210sp"
+        android:layout_width="239dp"
+        android:layout_height="248dp"
+        app:srcCompat="@drawable/image_a" />
+
+    <Button
+        android:id="@+id/voice"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="470sp"
+        android:text="Прослушать" />
+
+    <Button
+        android:id="@+id/next"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="550sp"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Следующая буква" />
+</RelativeLayout>
